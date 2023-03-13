@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+   background-color: rgb(0, 0, 0)55, 255, 255);
+}
+.card{
+    width: 350px;
+    height: 465px;
+    background-color: rgba(253, 253, 253, 0.315);
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 25px;
+    box-shadow: 11px 6px 18px -1px rgba(0, 0, 0, 0.58);
+    transition: 0.7s;
+
+}
+body{
+  display: flex;
+  grid-gap: 30px;
+}
+.conteiner{
+    display: grid;
+    justify-content: center;
+}
+ .cheva{
+   width: 350px;
+   height: 250px;
+    border-radius: 15px 15px 0px 15px;
+    -webkit-transition: all .2s ease-in;
+ }
+ .texto-main{
+  margin-top: -4px;
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+ }
+ .texto-main2{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+
+ }
+ .descri{
+   font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 15px;
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: 3px;
+ }
+
+ .btn{
+   border-radius: 10%;
+   margin-left: 100px;
+   margin-top: 5px;
+   background-color: rgb(31, 31, 31);
+   color: rgba(228, 227, 227, 0.986);
+   padding: 15px;
+   border-color: white;
+   font-family: 'Source Sans Pro', sans-serif;
+   transition: 0.5s;
+   cursor: pointer;
+ }
+ button.btn:hover {
+   background-color: rgb(92, 89, 89);
+   transition:0.5s ;
+   transform: scale(1.08);
+ }
+ div.card:hover{
+   transform: scale(1.04);
+   transition: 0.7s;
+ }
+ .logo{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: px;
+
+ }
+ .logo-car{
+  margin-left: 20px;
+  margin-bottom: 0px;
+ }
+ .texto-span{
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  top: -19px;
+
+ }
+ .condicao{
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  top: -19px;
+
+ }
+ .cheva:hover{
+  -webkit-transform: scale(1.12);
+
+ }
+
+   
+ 

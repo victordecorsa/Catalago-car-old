@@ -25,7 +25,7 @@ body{
  .cheva{
    width: 350px;
    height: 250px;
-    border-radius: 15px 15px 0px 15px;
+    border-radius: 15px 15px 14px 15px;
     -webkit-transition: all .2s ease-in;
  }
  .texto-main{
@@ -51,11 +51,11 @@ body{
 
  .btn{
    border-radius: 10%;
-   margin-left: 100px;
+   margin-left: 126.5px;
    margin-top: 5px;
    background-color: rgb(31, 31, 31);
    color: rgba(228, 227, 227, 0.986);
-   padding: 15px;
+   padding: 13px;
    border-color: white;
    font-family: 'Source Sans Pro', sans-serif;
    transition: 0.5s;
@@ -72,7 +72,6 @@ body{
  }
  .logo{
   font-family: 'Source Sans Pro', sans-serif;
-  padding: px;
 
  }
  .logo-car{

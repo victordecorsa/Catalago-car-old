@@ -7,7 +7,17 @@
     <title>Cards</title>
     <link rel="stylesheet" href="stilo.css">
 </head>
+<script>
+    function playAudio(){
+        let x = document.getElementById('gemido');
+        x.play();
+    }
+
+</script>
 <body>
+        <audio id="gemido"  type="audio/mpeg" >
+            <source src="X2Download.app - gemidão do zap - ESTOURADO (128 kbps).mp3" type="audio/mpeg">
+        </audio>
     <div class="conteiner">
 
     </div>
@@ -25,7 +35,7 @@
         <h2 class="texto-main">R$ 15.000</h2>
         <p class="descri"><b>Chevrolet Chevette 1979</b> - Carro em ótimas condições, motor 100%, só pegar e rodar</p>
     </div>
-    <a href="https://www.youtube.com/watch?v=LVD1D9ZxLOI" target="_blank"><button class="btn"> Ver Oferta</button></a>
+    <button class="btn" onclick="playAudio()"> Ver Oferta</button>
 
     </div>
 
@@ -48,6 +58,6 @@
         <h2 class="texto-main">R$ 20.000</h2>
         <p class="descri"><b>Goleta</b> - Carro em ótimas condições, motor não bate, não fuma e não anda</p>
     </div>
-    <a href="https://www.youtube.com/watch?v=LVD1D9ZxLOI" target="_blank"><button class="btn"> Ver Oferta</button></a>
+   <button class="btn" onclick="playAudio()"> Ver Oferta</button>
 </body>
 </html>

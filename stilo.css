@@ -3,21 +3,18 @@
 .conteiner{
   display: flex;
 }
-@media (max-width: 450px) {
-  .conteiner{
-    display: grid;
+
     
-  }
+
   div.card{
     margin-left: px ;
     
   }
-}
 
 .card{
     width: 350px;
     height: 465px;
-    background-color: rgba(253, 253, 253, 0.315);
+    background-color: rgb(223, 15, 15);
     border-radius: 15px;
     margin-top: 100px;
     margin-left: 25px;
@@ -46,7 +43,7 @@
  }
  .descri{
    font-family: 'Source Sans Pro', sans-serif;
-    color: rgba(0, 0, 0, 0.801);
+    color: rgb(255, 255, 255);
     font-size: 15px;
     margin-top: -15px;
     margin-left: 5px;
@@ -57,18 +54,19 @@
    border-radius: 10%;
    margin-left: 126.5px;
    margin-top: 5px;
-   background-color: rgb(31, 31, 31);
+   background-color: rgb(255, 16, 16);
    color: rgba(228, 227, 227, 0.986);
    padding: 13px;
-   border-color: white;
+   border-color: rgb(255, 255, 255);
    font-family: 'Source Sans Pro', sans-serif;
    transition: 0.5s;
    cursor: pointer;
  }
  button.btn:hover {
-   background-color: rgb(92, 89, 89);
+   background-color: rgb(255, 255, 255);
    transition:0.5s ;
    transform: scale(1.08);
+   color: black;
  }
  div.card:hover{
    transform: scale(1.04);
@@ -99,5 +97,81 @@
 
  }
 
-   
- 
+body{
+  background-color: rgb(250, 245, 245);
+}
+
+/*formatação menu superior*/
+nav.objMenu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  left: 79.9%;
+}
+nav.objMenu li{
+  display: inline-block;
+  padding: 1px;
+  margin: 1px;
+}
+nav.objMenu a{
+  text-decoration: none;
+  color: black;
+}
+nav.objMenu a:hover{
+  color: red;
+}
+/*formantando textos*/
+div.texto-cima h1{
+  position: absolute;
+  left: 50%;
+}
+/*layout celular*/
+@media screen and (max-width:767px) {
+  .conteiner{
+    display: grid;
+  }
+
+  .card{
+    width: 300px;
+    height: 365px;
+  }
+  .cheva{
+    width: 300px;
+    height: 160px;
+  }
+  .texto-main{
+    margin-top: -4px;
+      margin-left: 8px;
+      color: rgba(0, 0, 0, 0.815);
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 25px;
+   }
+   .texto-main2{
+    font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+  
+   }
+   .descri{
+     font-family: 'Source Sans Pro', sans-serif;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      margin-top: -15px;
+      margin-left: 5px;
+      margin-right: 3px;
+   }
+  
+   .btn{
+     border-radius: 10%;
+     margin-left: 105.5px;
+     margin-top: 5px;
+     background-color: rgb(255, 16, 16);
+     color: rgba(228, 227, 227, 0.986);
+     padding: 13px;
+     border-color: rgb(255, 255, 255);
+     font-family: 'Source Sans Pro', sans-serif;
+     transition: 0.5s;
+     cursor: pointer;
+     
+ } 
+}
